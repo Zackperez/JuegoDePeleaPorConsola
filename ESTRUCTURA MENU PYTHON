@@ -1,0 +1,41 @@
+PROPUESTA:
+Elegir un personaje
+
+Eleven, Hall, Urbus 
+
+Mostrar Fuerza:
+		Vida:
+		Agilidad
+		Intelecto			PODER COMPRAR ARMADURA.
+
+
+
+Estructura de un menu en python
+
+def menu ():
+	opc = True  BOOLEAN
+
+	while opc == True:
+		try:
+			return int(input("OPCIONES DEL MENU"))
+			opc = False
+		except ValueError:
+			print("Tienes que escribir un numero mrd")	
+loop = True
+	while loop == True:
+		opc = menu() // opc= CLASE.menu()		
+
+		if opc == 1:
+			print("opcion una")
+		elif opc == 2: 
+			print("opcion dos")
+		else:
+			print("OPCION NO ENCONTRADA")			
+
+
+
+
+
+
+
+
