@@ -1,5 +1,38 @@
+PRUEBAS PAPU
+
+""" 
+
+class Peleador:
+
+	def __init__(self, name = "", apellido= ""):
+		self._name = name
+		self._apellido = apellido
+
+	def get_playerName(self):
+		return self._name	
+
+	def set_playerName(self, x):
+		self._name = x
+
+	def get_Apellido(self):
+		return self._apellido
+
+	def set_Apellido(self, x):
+		self._apellido = x
+
+raj = Peleador()
+
+raj.set_playerName(nombre)
+raj.set_Apellido(apellido)
+
+print(raj.get_playerName())
+print(raj.get_Apellido())
+
+
+
+
 import random
-class Eleven():
+class Personaje():
 
 	def __init__(self, player, player_vida , player_Armadura ,arma):
 		self.player= player
