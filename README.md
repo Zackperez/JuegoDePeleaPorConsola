@@ -1,2 +1,4 @@
 # JuegoDePeleaPorConsola
-Juego de pelea por consola super basico
+Juego de pelea contra un bot por consola
+
+Simplemente para poner en práctica ciclos, condiciones, funciones etc.
